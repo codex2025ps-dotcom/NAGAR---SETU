@@ -1,0 +1,20 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+service-account*.json
+.aws/
+# Generated artifacts
+node_modules/
+.next/
+.expo/
+dist/
+build/
+coverage/
+__pycache__/
+*.py[cod]
+.DS_Store
+work/
